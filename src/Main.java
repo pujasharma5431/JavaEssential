@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,7 +61,25 @@ boolean isAdult = false;
 
 
 
+//Arrays
 
+        int[] marks =new int[3];
+        marks[0]=97;
+        marks[1]=98;
+        marks[2]=96;
+        System.out.println(marks[0]);
+
+//        length
+        System.out.println(marks.length);
+
+//        sorting
+        System.out.println(marks[0]);
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+
+//2D array
+        int[][] finalMarks ={{97,98,96}, {95,99,94}};
+        System.out.println(finalMarks[0][0]);
 
 
     }
