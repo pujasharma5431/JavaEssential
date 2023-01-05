@@ -1,5 +1,6 @@
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -79,7 +80,56 @@ boolean isAdult = false;
 
 //2D array
         int[][] finalMarks ={{97,98,96}, {95,99,94}};
-        System.out.println(finalMarks[0][0]);
+        System.out.println(finalMarks[1][1]);
+
+//        Casting
+        int price = 100;
+        double finalprice = price + 18.00;
+        System.out.println(finalprice);
+
+//        Expliciting Casting
+
+        int p =100;
+        int fp =p + (int)19.12;
+        System.out.println(fp);
+
+
+//        Constants
+
+        final float PI = 3.14F;
+
+//        Operators
+
+         // Arithmetic
+        int a =1;
+        int b=3;
+        int sum=a+b;
+        int dif=a-b;
+        System.out.println(sum);
+        System.out.println(dif);
+
+
+        double a1 =1;
+        double b2=3;
+        double multi=a*b;
+       double div=a1%b2;
+        System.out.println(multi);
+        System.out.println(div);
+
+        int numb=1;
+        System.out.println(numb--);
+
+//        Math Class
+
+        System.out.println((int)(Math.random()*100));
+
+//        How to take INPUT?
+        Scanner sc =new Scanner(System.in);
+
+
+
+
+
 
 
     }
