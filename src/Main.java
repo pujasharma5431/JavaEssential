@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Java!");
@@ -40,11 +42,21 @@ boolean isAdult = false;
 
 
 //        charAt
-        
+        String name8 ="Arjun";
+        System.out.println(name8.charAt(1));
 
 
+//        Length
 
+        System.out.println(name8.length());
+//replace
+        String name9= name8.replace('A','p');
+        System.out.println(name9);
 
+//        substring
+
+        String name10="Arjun and Puja";
+        System.out.println(name10.substring(6,10));
 
 
 
