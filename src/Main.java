@@ -1,4 +1,5 @@
 
+import java.time.Month;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -126,33 +127,33 @@ boolean isAdult = false;
 ////How to take INPUT?
 //        Error while print ask
 
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Input Your Age?");
-        float agee= sc.nextFloat();
-        System.out.println(agee);
-
-
-
-        System.out.println("Enter your full name");
-        String Fname= sc.nextLine();
-        System.out.println(Fname);
-        System.out.println("Enter a sentence");
-        String sent= sc.nextLine();
-        System.out.println(sent);
-
-//Cconditional stt
-      boolean isSunUp= true;
-      if(isSunUp==true)
-          System.out.println("It's a Day");
-      else
-          System.out.println("It's a Night");
-
-int Age= 18;
-        if(Age>=18)
-            System.out.println("You can Vote");
-        else
-            System.out.println("You cannot Vote");
-
+//        Scanner sc= new Scanner(System.in);
+//        System.out.println("Input Your Age?");
+//        float agee= sc.nextFloat();
+//        System.out.println(agee);
+//
+//
+//
+//        System.out.println("Enter your full name");
+//        String Fname= sc.nextLine();
+//        System.out.println(Fname);
+//        System.out.println("Enter a sentence");
+//        String sent= sc.nextLine();
+//        System.out.println(sent);
+//
+////Cconditional stt
+//      boolean isSunUp= true;
+//      if(isSunUp==true)
+//          System.out.println("It's a Day");
+//      else
+//          System.out.println("It's a Night");
+//
+//int Age= 18;
+//        if(Age>=18)
+//            System.out.println("You can Vote");
+//        else
+//            System.out.println("You cannot Vote");
+//
 
 //        Logical Operators
 
