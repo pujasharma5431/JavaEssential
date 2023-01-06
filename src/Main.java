@@ -154,10 +154,33 @@ int Age= 18;
             System.out.println("You cannot Vote");
 
 
+//        Logical Operators
+
+    int aa= 20;
+    int bb=30;
+    if( aa<50 && bb<50)
+        System.out.println("Bothh are less than 50");
+if(aa<50 || bb>50)
+    System.out.println("At least is one less than 50");
+
+
+boolean isAdult1= true;
+if(isAdult1== true)
+    System.out.println("Is adult");
+else
+    System.out.println("Is Not adult");
 
 
 
-
+Scanner sc3= new Scanner(System.in);
+int cash= sc3.nextInt();
+if(cash>5000){
+    System.out.println("Rich");
+    System.out.println("I Have cash");
+}
+else{
+    System.out.println("Not rich");
+}
 
 
 
