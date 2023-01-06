@@ -189,7 +189,7 @@ else{
             System.out.println(i);
         }
 
-        for(int i=100;i>1;i--1){
+        for(int i=100;i>1;i--){
             System.out.println(i);
         }
 
@@ -203,6 +203,13 @@ int j= 100;
 
 
 
+//Do while Loop
+        int k=5;
+                do{
+                    System.out.println(k);
+                    k=k-1;
+                }
+                while (k>=5);
 
 
 
