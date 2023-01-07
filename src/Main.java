@@ -209,7 +209,17 @@ int j= 100;
                     System.out.println(k);
                     k=k-1;
                 }
-                while (k>=5);
+                while ( k>=5);
+
+
+                Scanner sc5= new Scanner(System.in);
+                int number=0;
+                do{
+                    System.out.println("Input a number");
+                     number =sc.nextInt();
+                    System.out.println("here is the number");
+                    System.out.println(number);
+                }while (number >=8);
 
 
 
