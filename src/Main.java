@@ -16,9 +16,9 @@ public class Main {
 
         String name2=name1;
         System.out.println(name + name2 + name1);
-
-
-//        Primitive types
+//
+//
+////        Primitive types
         byte age2 =30;
         int phone =1234567899;
 long phone2 = 123479466934L;
@@ -26,18 +26,18 @@ float pi = 3.13F;
 char letter = '@';
 boolean isAdult = false;
 
-//Non-primitive types
+////Non-primitive types
 
         String name3= "Arjun";
         System.out.println(name3.length());
 
-//        Non-primitive types
+////        Non-primitive types
 
         String name6 =new String("Poo");
 
 
-
-// Strings
+//
+//// Strings
         String naame ="Arjun";
         String naame2 ="Puja";
         String naame3= naame + " and "+ naame2;
@@ -48,8 +48,8 @@ boolean isAdult = false;
         String name8 ="Arjun";
         System.out.println(name8.charAt(1));
 
-
-//        Length
+//
+////        Length
 
         System.out.println(name8.length());
 //replace
@@ -62,8 +62,8 @@ boolean isAdult = false;
         System.out.println(name10.substring(6,10));
 
 
-
-//Arrays
+//
+////Arrays
 
         int[] marks =new int[3];
         marks[0]=97;
@@ -73,8 +73,8 @@ boolean isAdult = false;
 
 //        length
         System.out.println(marks.length);
-
-//        sorting
+//
+////        sorting
         System.out.println(marks[0]);
         Arrays.sort(marks);
         System.out.println(marks[0]);
@@ -83,7 +83,7 @@ boolean isAdult = false;
         int[][] finalMarks ={{97,98,96}, {95,99,94}};
         System.out.println(finalMarks[1][1]);
 
-//        Casting
+////        Casting
         int price = 100;
         double finalprice = price + 18.00;
         System.out.println(finalprice);
@@ -99,9 +99,9 @@ boolean isAdult = false;
 
         final float PI = 3.14F;
 
-//        Operators
-
-         // Arithmetic
+////        Operators
+//
+//         // Arithmetic
         int a =1;
         int b=3;
         int sum=a+b;
@@ -124,7 +124,7 @@ boolean isAdult = false;
 
         System.out.println((int)(Math.random()*100));
 //
-////How to take INPUT?
+//////How to take INPUT?
 //        Error while print ask
 
         Scanner sc= new Scanner(System.in);
@@ -155,7 +155,7 @@ int Age= 18;
             System.out.println("You cannot Vote");
 
 
-//        Logical Operators
+////        Logical Operators
 
     int aa= 20;
     int bb=30;
@@ -184,7 +184,7 @@ else{
 }
 
 
-//lOOPS
+////lOOPS
         for(int i=1;i<12;i++){
             System.out.println(i);
         }
@@ -203,7 +203,7 @@ int j= 100;
 
 
 
-//Do while Loop
+////Do while Loop
         int k=5;
                 do{
                     System.out.println(k);
@@ -223,7 +223,7 @@ int j= 100;
 
         System.out.println("The End");
 
-//Break and Continue
+////Break and Continue
 
         int i=0;
         while(true){
@@ -238,7 +238,21 @@ int j= 100;
             }
 
 
+// TRY-CATCH in EXCEPTION HANDLING
+ int[] marks1 = {97,98,93};
+
+            try {
+                System.out.println(marks1[5]);
+            }
+            catch (Exception exception){
+
+                System.out.println("Student Name is Puja");
+
+            }
+
+
         }
+
 
 
 
