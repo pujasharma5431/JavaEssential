@@ -221,6 +221,24 @@ int j= 100;
                     System.out.println(number);
                 }while (number >=8);
 
+        System.out.println("The End");
+
+//Break and Continue
+
+        int i=0;
+        while(true){
+            if(i==3){
+                i=i+1;
+                continue;
+            }
+            System.out.println(i);
+            i++;
+            if(i>5){
+                break;
+            }
+
+
+        }
 
 
 
